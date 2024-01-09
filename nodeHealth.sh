@@ -9,11 +9,10 @@
 # Version: 1
 ################################
 
-echo "print the disk space"
+set -x # Debug mode
+
 df -h
 
-echo "print the memory"
 free -g
 
-echo "print the cup cores"
 nproc
